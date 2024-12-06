@@ -4,14 +4,14 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className='bg-primary pt-36  pb-20 md:pb-80 '>
+        <div className='bg-primary pt-36  pb-16 '>
             <div className='container mx-auto md:pb-40 px-4 md:px-0'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     <div>
                         <div className='relative'>
                             <Image src={AllImages.about1} alt="about-us" width={0} height={0} className=''></Image>
                             <Image src={AllImages.about2} alt="about-us" width={0} height={0}
-                                className='md:absolute top-20 left-20 transform translate-x-1/2 -translate-y-1/2    md:top-72 md:left-56 h-full w-auto'></Image>
+                                className='md:absolute top-20 left-20 transform translate-x-1/2 -translate-y-1/2  md:translate-x-0 md:translate-y-0   md:top-72 md:left-56 h-full w-auto'></Image>
                         </div>
                     </div>
 
@@ -27,6 +27,8 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+
+
         </div>
     );
 };
