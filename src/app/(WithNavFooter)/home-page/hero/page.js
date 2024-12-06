@@ -9,7 +9,7 @@ const HeroPage = () => {
         backgroundPosition: "center",
         height: "100vh",
         // opacity: 0.08,
-        backgroundColor: "rgba(83, 92, 89, 0.5)",
+        backgroundColor: "rgba(64, 64, 64, 0.7)",
         backgroundBlendMode: "overlay",
     };
     return (
