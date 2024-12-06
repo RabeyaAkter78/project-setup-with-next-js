@@ -20,7 +20,10 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="w-full bg-[#37453b] fixed z-50">
+        // <nav className="w-full bg-[#37453b] fixed z-10">
+
+        <nav className="w-full bg-[#37453b] ">
+
             <div className="container mx-auto px-4 flex items-center justify-between h-16">
                 {/* Logo */}
                 <div className="flex items-center">
@@ -103,7 +106,7 @@ const Navbar = () => {
                     </button>
                 </div>
             </Drawer>
-        </nav>
+        </nav >
     );
 };
 
